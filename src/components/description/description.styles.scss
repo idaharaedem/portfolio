@@ -1,0 +1,68 @@
+.descriptions {
+    padding: 0 100px;
+    display: relative;
+
+}
+
+
+
+
+.descriptions h1 {
+    text-transform: uppercase;
+    display: absolute;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    font-size: 180%;
+    color: #000;
+}
+
+.descriptions h1:after {
+    display: block;
+    height: 2px;
+    background-color:rgb(231, 231, 231);
+    content: "";
+    width: 45%;
+    margin-top: 19px;
+}
+
+
+
+.descriptions h2 {
+    margin-bottom: 10px;
+}
+
+
+.desc-section {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.desc-paragraph {
+    box-sizing: border-box;
+    width: calc(50% - 50px);
+    height: 100%;
+    line-height: 145%;
+}
+
+.des-images {
+    margin-top: 60px;
+    box-sizing: border-box;
+    width: calc(50% + 20px);
+    height: 100%;
+    padding-left: 13%;
+}
+
+.des-images img{
+    height: 120px;
+    width: 120px;
+    margin: 0 14px;
+    opacity: 0.9;
+}
+
+
+
+
