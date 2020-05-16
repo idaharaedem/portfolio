@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route} from 'react-router-dom'
-import {Header, Description} from './components';
+import {Header, Description, Project} from './components';
 
 import './App.css';
 
@@ -11,6 +11,7 @@ class App extends React.Component {
       <div className="App">
         <Header/>
         <Description/>
+        <Project/>
 
       </div>
     )
