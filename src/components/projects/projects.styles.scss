@@ -7,6 +7,8 @@
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 100vh;
+    
 }
 
 .container:before{
@@ -38,33 +40,64 @@
    top: 18%;
    padding: 1%;
    border: 1px solid #fff;
+   text-transform: uppercase;
+   font-size: 120%;
 }
 
 /*------------------------------*/     
 /*----------- Cards -----------*/
 /*------------------------------*/
 
+
 .cards {
     position: absolute;
     top: 40%;
     box-sizing: border-box;
-    margin-left: 2%;
+    margin-left: 1%;
+    transform: scale(1);
+    opacity: 0.9;
+    text-decoration: none !important;
 }
 
 .card {
-    width: 300px;
-    height: 240px;
+    width: 320px;
+    height: 260px;
     margin: 0 55px;
+   
 }
 
 .cin-media {
-    height: 180px;   
+    height: 200px;
+}
+
+.cinema {
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s, opacity 0.1s;
+        opacity: 1;
+    }
 }
 
 .covid-media {
-    height:  180px;
+    height:  200px;
+}
+
+.covid{
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s, opacity 0.1s;
+        opacity: 1;
+    }
 }
 
 .clothing-media {
-    height: 180px;
+    height: 200px;
+}
+
+.clothing{
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 0.5s, opacity 0.1s;
+        opacity: 1;
+    }
 }

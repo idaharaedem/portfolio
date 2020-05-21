@@ -28,7 +28,7 @@
         margin-top: 60px;
     }
 
-section.skewed {
+.skewed {
     position: relative;
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.747)),
@@ -36,9 +36,10 @@ section.skewed {
     background-position: left;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 80vh;
 
 }
-section.skewed:before{
+.skewed:before{
     content: '';
     position: absolute;
     top: 100%;
@@ -50,7 +51,7 @@ section.skewed:before{
     transform: skewY(8deg);
 }
 
-section.skewed:after{
+.skewed:after{
     content: '';
     position: absolute;
     top: 100%;
