@@ -29,13 +29,13 @@ return(
             <div className="desc-paragraph">
                 <h2> Who Am I </h2>
     
-                <p> I am an aspiring software engineer who has a passion 
-                    towards programming and all other aspects of the coding world. I currently have a diploma
+                <p> An aspiring software engineer who has a passion 
+                    towards programming and all other aspects of the software engineering world. I currently have a diploma
                     in Information Technology and am currently busy with my post graduate degree. 
-                    I respond to more of the visual aspect in the development process and 
-                    this is why I choose to focus on Html, CSS and Javascript using frameworks 
-                    like React to accomplish the personal tasks I have set for myself. I have a strong 
-                    understanding with C# being the preffered language used in my University
+                    I respond to the visual aspect in the development process and 
+                    this is why I chose to focus on Html, CSS and Javascript. Using frameworks 
+                    such as React to accomplish the personal tasks I have set for myself. I have a strong 
+                    understanding in C#, being the preffered language used in my University.
                 </p>
               
             </div>

@@ -28,7 +28,12 @@ const ProjectDetails = ({match}) => {
                         View Project 
                     </DetailButton>
                 </a>
-                    <DetailButton> View GitHub </DetailButton>
+
+                <a href={`${projects.portfolio_projects.find(item => item.id === parseInt(match.params.id)).github}`} target="_blank">
+                    <DetailButton> 
+                        View GitHub 
+                    </DetailButton>
+                </a>
                 </div>
             </div>
     
